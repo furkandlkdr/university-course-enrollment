@@ -2,6 +2,9 @@
 
 A SQL-based course registration and management system for universities that handles student enrollments, courses, faculties and automatically logs changes.
 
+## Database Name
+- **Course_Enrollment**
+
 ## Database Structure
 
 ### Tables
@@ -27,4 +30,3 @@ A SQL-based course registration and management system for universities that hand
 - `trg_CourseOperationLog`: Tracks Course table changes  
 - `trg_FacultyOperationLog`: Tracks Faculty table changes
 - `trg_EnrollmentOperationLog`: Tracks Enrollment table changes
-
